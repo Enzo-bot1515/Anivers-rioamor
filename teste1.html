@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para Você 🤍</title>
+
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, #1a1a1a, #2b1e24, #3a2530);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #f8eaea;
+  text-align: center;
+  padding: 50px 25px;
+}
+
+h1 {
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+p {
+  opacity: 0;
+  transition: opacity 2s ease, transform 2s ease;
+  transform: translateY(10px);
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+button {
+  margin-top: 40px;
+  padding: 14px 30px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: #f8eaea;
+  border-radius: 25px;
+  font-size: 16px;
+  backdrop-filter: blur(5px);
+}
+
+footer {
+  margin-top: 60px;
+  font-size: 12px;
+  opacity: 0.4;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Para a garota que carrega meu mundo 🤍</h1>
+
+<p id="t1">Existe algo vindo para você...</p>
+<p id="t2">Algo escolhido com carinho.</p>
+<p id="t3">Não é flor.</p>
+<p id="t4">Não é roupa.</p>
+<p id="t5">Mas combina com tudo que você veste.</p>
+<p id="t6">É macio.</p>
+<p id="t7">É leve.</p>
+<p id="t8">Vai te acompanhar por onde você for.</p>
+<p id="t9">Assim como eu quero acompanhar você.</p>
+<p id="t10">Porque tudo que anda ao seu lado... fica mais bonito.</p>
+
+<button onclick="revelar()">Tocar para descobrir 💗</button>
+
+<footer>feito com amor.</footer>
+
+<script>
+let contador = 1;
+function revelar() {
+  if (contador <= 10) {
+    document.getElementById("t"+contador).classList.add("show");
+    contador++;
+  }
+}
+</script>
+
+<!-- 
+Se ela procurar nas primeiras letras da mensagem invisível abaixo:
+-->
+
+<!-- 
+P
+U
+F
+F
+E
+R
+-->
+
+<!-- Código secreto em Base64: UFVGRkVS -->
+
+<!-- 
+Mensagem invisível (selecionar para ver):
+
+Parece apenas um detalhe.
+Um toque de estilo.
+Fofinho como abraço.
+Feito para te acompanhar.
+Especialmente escolhido.
+Reservado para você.
+-->
+
+</body>
+</html>
